@@ -2,9 +2,9 @@ package handler
 
 import (
 	"encoding/json"
+	"go-platform/handler/response"
+	log "go-platform/logger"
 	"io"
-	"lod-product/internal/platform/handler/response"
-	log "lod-product/internal/platform/logger"
 	"net/http"
 )
 

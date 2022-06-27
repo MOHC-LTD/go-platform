@@ -1,7 +1,7 @@
 package handler
 
 import (
-	log "lod-product/internal/platform/logger"
+	log "go-platform/logger"
 	"net/http"
 )
 

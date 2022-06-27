@@ -2,7 +2,7 @@ package handler
 
 import (
 	"fmt"
-	log "lod-product/internal/platform/logger"
+	log "go-platform/logger"
 	"net/http"
 )
 
