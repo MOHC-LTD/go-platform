@@ -1,7 +1,7 @@
 package response
 
 import (
-	"go-platform/logger"
+	"github.com/MOHC-LTD/go-platform/logger"
 	"net/http"
 )
 

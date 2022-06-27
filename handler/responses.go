@@ -2,8 +2,8 @@ package handler
 
 import (
 	"fmt"
-	"go-platform/handler/response"
-	log "go-platform/logger"
+	"github.com/MOHC-LTD/go-platform/handler/response"
+	log "github.com/MOHC-LTD/go-platform/logger"
 	"net/http"
 )
 

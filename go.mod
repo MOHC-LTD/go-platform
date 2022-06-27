@@ -1,4 +1,4 @@
-module go-platform
+module github.com/MOHC-LTD/go-platform
 
 go 1.18
 

@@ -1,7 +1,7 @@
 package handler
 
 import (
-	log "go-platform/logger"
+	log "github.com/MOHC-LTD/go-platform/logger"
 	"net/http"
 )
 
