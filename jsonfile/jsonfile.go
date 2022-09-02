@@ -38,5 +38,5 @@ func Read[T any](path string) (T, error) {
 		return *new(T), err
 	}
 
-	return jsonx.Unmarshal[T](fileData), nil
+	return jsonx.Unmarshal[T](fileData)
 }
