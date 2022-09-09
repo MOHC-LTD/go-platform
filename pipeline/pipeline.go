@@ -44,12 +44,12 @@ func Do[T any](effect SideEffect[T]) Stage[T] {
 // Filter is used for filtering out unwanted elements from the pipeline using the `Predicate`
 func Filter[T any](predicate Predicate[T]) Stage[T] {
 	return func(elements []T) ([]T, error) {
-		passedElement := make([]T, 0, len(elements))
+		passedElements := make([]T, 0, len(elements))
 		for _, element := range elements {
 			if predicate(element) {
-				passedElement = append(passedElement, element)
+				passedElements = append(passedElements, element)
 			}
 		}
-		return passedElement, nil
+		return passedElements, nil
 	}
 }
