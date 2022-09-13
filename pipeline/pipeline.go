@@ -1,5 +1,5 @@
 /*
-	Package pipeline provides a stages to process an element of data such as a struct or a map.
+	Package pipeline provides a set of stages to process an element of data such as a struct or a map.
 	It also provides helper functions for processing the element. You provide the functions of
 	what to do with an element. For instance, you can implement the type predicate for true or false
 	checks against the element that is transitioning through the pipeline. If it passes it can move
